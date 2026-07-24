@@ -1,6 +1,11 @@
 x =10
 x= 12
 is_true = True
+password = ""
+
+while password != "python":
+ password = input("password: ")
+ print("correct password")
 
 print("hello chibuzor!")
 def is_number():
@@ -17,3 +22,8 @@ elif x >= 12 and is_true :
 else:
  print("less than 12")
 
+
+name = ["joseph","chibuzor"]
+name.append("boy")
+print(name)
+print(name[0])
