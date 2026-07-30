@@ -23,6 +23,11 @@ print(names[45])
 print(names.values())
 print(names.items())
 print(names.keys())
+
+names = ["no", "car", "no", "car"]
+Sts= set()
+Sts = set(names)
+print(len(Sts)) 
 # names.append("python")
 
 # print(names[-1])
